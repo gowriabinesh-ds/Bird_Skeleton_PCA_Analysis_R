@@ -4,7 +4,7 @@
 This project applies **Principal Component Analysis (PCA)** to a dataset of bird skeletal measurements to explore the relationship between bone structure and ecological groups. <br> By reducing 10 morphometric variables into primary components, this analysis identifies how skeletal features differ across groups like Raptors, Swimming Birds and Singing Birds.
 
 ## 📊 Dataset Description
-The dataset consists of 413 observations of bird skeletons from the Natural History Museum of Los Angeles County. Each bird is measured across 10 features:
+The dataset consists of 413 observations of bird skeletons from the Natural History Museum of Los Angeles County. <br> Each bird is measured across 10 features:
 - **Humerus:** Length and Diameter
 - **Ulna:** Length and Diameter
 - **Femur:** Length and Diameter
@@ -30,6 +30,8 @@ To better understand the results, the following codes are used for bird types:
 3. **Dimensionality Reduction:** Applied PCA to capture maximum variance with fewer variables.
 4. **Interpretation:** Analyzed the "Loadings" to understand what each Principal Component represents (e.g., Overall Size vs. Shape).
 5. **Cluster Visualization:** Comparing ecological groups based on their principal component scores.
+
+---
 
 ## 📊 Key Insights & Visualizations
 
