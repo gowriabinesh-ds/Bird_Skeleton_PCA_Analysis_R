@@ -13,12 +13,14 @@ The dataset consists of 413 observations of bird skeletons from the Natural Hist
 
 ### 🏷️ Ecological Group Labels
 To better understand the results, the following codes are used for bird types:
-- **SW:** Swimming Birds (e.g., Ducks, Penguins)
-- **W:** Wading Birds (e.g., Herons, Storks)
-- **T:** Terrestrial Birds (e.g., Chickens, Ostriches)
-- **R:** Raptors (e.g., Hawks, Owls)
-- **P:** Scansorial Birds (e.g., Woodpeckers)
-- **SO:** Singing Birds (e.g., Sparrows, Robins)
+| Code | Ecological Group | Examples |
+| :--- | :--- | :--- |
+| **SW** | **Swimming Birds** | Ducks, Penguins, Gulls |
+| **W** | **Wading Birds** | Herons, Storks, Flamingos |
+| **T** | **Terrestrial Birds** | Chickens, Ostriches, Turkeys |
+| **R** | **Raptors** | Hawks, Eagles, Owls |
+| **P** | **Scansorial Birds** | Woodpeckers, Parrots |
+| **SO** | **Singing Birds** | Sparrows, Robins, Finches |
 
 ---
 
