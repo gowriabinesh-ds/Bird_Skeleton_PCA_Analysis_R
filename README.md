@@ -34,7 +34,7 @@ To better understand the results, the following codes are used for bird types:
 ### 1. The "Information Test" (Scree Plot)
 When we simplify 10 variables into just a few, we need to make sure we aren't losing important information. We use a **Scree Plot** to check this. Think of it as a "Value for Money" chart—it shows how much "truth" we keep as we simplify the data.
 
-![Scree Plot](pca_scree_plot.jpg) 
+![Scree Plot](output_plots/pca_scree_plot.jpg) 
 
 * **The Result:** The sharp drop after the first point (the "elbow") is fantastic news. It shows that **Principal Component 1 (PC1)** captures over **90% of the information** from the original dataset.
 * This means the model is incredibly efficient. 
@@ -42,7 +42,7 @@ When we simplify 10 variables into just a few, we need to make sure we aren't lo
 ### 2. The Skeletal "Heavyweights" (Overall Body Size)
 To make the data easy to understand, I used PCA to combine 10 different bone measurements into one single score called **"Overall Bone Size."** This allows us to rank bird groups by their physical scale.
 
-![Average Overall Bone Size](bone_size_comparison.jpg)
+![Average Overall Bone Size](output_plots/bone_size_comparison.jpg)
 
 * **Who are the Giants?** **Raptors (R)** and **Swimming Birds (SW)** have the highest scores. This reflects their need for powerful, robust skeletons for hunting and diving in high-pressure environments.
 * **Who are the Lightweights?** **Singing Birds (SO)** have the lowest scores. Their tiny, lightweight skeletons are an evolutionary masterpiece designed for agile flight and life in the trees.
