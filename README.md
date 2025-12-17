@@ -36,7 +36,7 @@ To better understand the results, the following codes are used for bird types:
 ## 📊 Key Insights & Visualizations
 
 ### 1. The "Information Test" (Scree Plot)
-When we simplify 10 variables into just a few, we need to make sure we aren't losing important information. We use a **Scree Plot** to check this. Think of it as a "Value for Money" chart—it shows how much "truth" we keep as we simplify the data.
+When we simplify 10 variables into just a few, we need to make sure we aren't losing important information. <br> We use a **Scree Plot** to check this. Think of it as a "Value for Money" chart—it shows how much "truth" we keep as we simplify the data.
 
 ![Scree Plot](output_plots/pca_scree_plot.jpg) 
 
@@ -44,7 +44,7 @@ When we simplify 10 variables into just a few, we need to make sure we aren't lo
 * This means the model is incredibly efficient. 
 
 ### 2. The Skeletal "Heavyweights" (Overall Body Size)
-To make the data easy to understand, I used PCA to combine 10 different bone measurements into one single score called **"Overall Bone Size."** This allows us to rank bird groups by their physical scale.
+To make the data easy to understand, I used PCA to combine 10 different bone measurements into one single score called **"Overall Bone Size."** <br> This allows us to rank bird groups by their physical scale.
 
 ![Average Overall Bone Size](output_plots/bone_size_comparison.jpg)
 
