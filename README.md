@@ -34,7 +34,7 @@ To better understand the results, the following codes are used for bird types:
 ### 1. The "Information Test" (Scree Plot)
 When we simplify 10 variables into just a few, we need to make sure we aren't losing important information. We use a **Scree Plot** to check this. Think of it as a "Value for Money" chart—it shows how much "truth" we keep as we simplify the data.
 
-![Scree Plot](scree_plot.jpg) 
+![Receiver Operating Characteristic Scree Plot](scree_plot.jpg) 
 
 * **The Result:** The sharp drop after the first point (the "elbow") is fantastic news. It shows that **Principal Component 1 (PC1)** captures over **90% of the information** from the original dataset.
 * This means the model is incredibly efficient. 
