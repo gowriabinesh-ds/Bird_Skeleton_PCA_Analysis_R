@@ -36,7 +36,7 @@ To better understand the results, the following codes are used for bird types:
 ## 📊 Key Insights & Visualizations
 
 ### 1. The "Information Test" (Scree Plot)
-When we simplify 10 variables into just a few, we need to make sure we aren't losing important information. <br> We use a **Scree Plot** to check this. Think of it as a "Value for Money" chart—it shows how much "truth" we keep as we simplify the data.
+When we simplify 10 variables into just a few, we need to make sure we aren't losing important information. <br> We use a **Scree Plot** to check this.
 
 ![Scree Plot](output_plots/pca_scree_plot.jpg) 
 
@@ -48,8 +48,8 @@ To make the data easy to understand, I used PCA to combine 10 different bone mea
 
 ![Average Overall Bone Size](output_plots/bone_size_comparison.jpg)
 
-* **Who are the Giants?** **Raptors (R)** and **Swimming Birds (SW)** have the highest scores. This reflects their need for powerful, robust skeletons for hunting and diving in high-pressure environments.
-* **Who are the Lightweights?** **Singing Birds (SO)** have the lowest scores. Their tiny, lightweight skeletons are an evolutionary masterpiece designed for agile flight and life in the trees.
+* **Who are the Giants?** : **Raptors (R)** and **Swimming Birds (SW)** have the highest scores. This reflects their need for powerful, robust skeletons for hunting and diving in high-pressure environments.
+* **Who are the Lightweights?** : **Singing Birds (SO)** have the lowest scores. Their tiny, lightweight skeletons are an evolutionary masterpiece designed for agile flight and life in the trees.
 * This chart proves that we can identify a bird's lifestyle just by looking at the scale of its bones.
 
 ---
@@ -62,6 +62,6 @@ To make the data easy to understand, I used PCA to combine 10 different bone mea
 ---
 
 ## 🏁 Conclusion
-The PCA successfully reduced the 10 bone measurements into a primary component that explains over 90% of the variance, representing "Overall Body Size." <br> This demonstrates a strong link between a bird's ecological role and its skeletal evolution.
+* The PCA successfully reduced the 10 bone measurements into a primary component that explains over 90% of the variance, representing "Overall Body Size." This demonstrates a strong link between a bird's ecological role and its skeletal evolution.
 
 ---
